@@ -2,11 +2,10 @@
 
 ## ✅ Week 1 Checklist
 
-| 📘 Chapters 1 & 2 from Nielsen & Chuang | ✅     | Covered postulates, qubits, Dirac notation, and basic quantum circuits     |
+| 📘 Chapters 1 & 2 from Nielsen & Chuang | ✅   | Covered postulates, qubits, Dirac notation, and basic quantum circuits     |
+| 🎥 Watched Introductory Videos          | ✅   | Followed YouTube playlists for foundational understanding                  |
 
-| 🎥 Watched Introductory Videos      | ✅     | Followed YouTube playlists for foundational understanding                   |
-
-
+---
 > **Quantum Computation and Quantum Information**  
 > *Michael A. Nielsen and Isaac L. Chuang (2000)*(https://profmcruz.wordpress.com/wp-content/uploads/2017/08/quantum-computation-and-quantum-information-nielsen-chuang.pdf)
 
