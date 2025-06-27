@@ -26,6 +26,9 @@ Welcome to **Week 2** of my quantum computing journey!
 ### 4.3 – Circuit Diagrams.
 
 ### 4.4 – Universality
-
-
 ---
+## 🎓 Courses and 📚 Books Used
+ [*Quantum Computation and Quantum Information By Michael A. Nielsen & Isaac L. Chuang*](https://profmcruz.wordpress.com/wp-content/uploads/2017/08/quantum-computation-and-quantum-information-nielsen-chuang.pdf)
+  [* Basics of Quantum Information Course (beginner course by IBM)*](https://learning.quantum.ibm.com/course/basics-of-quantum-information) 
+
+
