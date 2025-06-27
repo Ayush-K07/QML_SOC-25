@@ -1,7 +1,7 @@
 # 🧪 Week 2 – Getting Started with Qiskit
 
 Welcome to **Week 2** of my quantum computing journey!  
-This week focused on bridging **quantum theory** with practical coding by building quantum circuits using **Qiskit**, IBM’s open-source quantum programming framework.
+
 
 ---
 
