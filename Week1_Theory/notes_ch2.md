@@ -1,9 +1,11 @@
 # 📘 Week 1: Basics of Quantum Computation
 
 ## ✅ Week 1 Checklist
-| Task                                     | Status | Description                                                               |
-| 📘 Chapters 1 & 2 from Nielsen & Chuang |  ✅   | Covered postulates, qubits, Dirac notation, and basic quantum circuits     |
-| 🎥 Watched Introductory Videos          |  ✅   | Followed YouTube playlists for foundational understanding                  |
+
+| Task                                         | Status | Description                                                                 |
+|----------------------------------------------|--------|-----------------------------------------------------------------------------|
+| 📘 Chapters 1 & 2 from Nielsen & Chuang     |  ✅    | Covered postulates, qubits, Dirac notation, and basic quantum circuits      |
+| 🎥 Watched Introductory Videos              |  ✅    | Followed YouTube playlists for foundational understanding                   |
 
 ---
 > **Quantum Computation and Quantum Information**  
