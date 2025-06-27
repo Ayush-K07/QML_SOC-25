@@ -15,7 +15,7 @@ This week focused on bridging **quantum theory** with practical coding by buildi
 
 ---
 
-## 📘 Theory Recap – Nielsen & Chuang (Ch. 4.1–4.4)
+## 📘 Notes – Nielsen & Chuang (Ch. 4.1–4.4)
 
 ### 4.1 – Quantum Circuit Model
 - Quantum circuits are made of **quantum registers**, **classical registers**, and **gates**.
