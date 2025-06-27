@@ -1,4 +1,10 @@
-# ✅ Week 1 Quantum Computation – Foundational Concepts
+# 📘 Week 1: Basics of Quantum Computation
+
+## ✅ Week 1 Checklist
+
+| 📘 Chapters 1 & 2 from Nielsen & Chuang | ✅     | Covered postulates, qubits, Dirac notation, and basic quantum circuits     |
+
+| 🎥 Watched Introductory Videos      | ✅     | Followed YouTube playlists for foundational understanding                   |
 
 
 > **Quantum Computation and Quantum Information**  
@@ -13,7 +19,7 @@
 
 ---
 
-## ✅ Learning Highlights
+## ✅ Topics Learnt :
 
 ### 🧩 1. Postulates of Quantum Mechanics
 - **State Space**: Quantum states are unit vectors in a complex vector space (Hilbert space).
@@ -22,20 +28,19 @@
 - **Composite Systems**: Described using tensor products of individual subsystems.
 
 ### 🧠 2. Qubits and Superposition
-- A **qubit** is a linear combination (superposition) of \(|0⟩\) and \(|1⟩\):
-$$
-|\psi\rangle = \alpha\,|0\rangle + \beta\,|1\rangle
-$$
+- A **qubit** is a linear combination (superposition) of |0⟩ and |1⟩:
+
+|ψ⟩ = α·|0⟩ + β·|1⟩
 
 - Unlike classical bits, qubits can encode more information through interference and entanglement.
 
 ### 📐 3. Dirac Notation
 - Introduced **bra-ket** notation:
-  - Kets: \(|\psi⟩\)
-  - Bras: \(\langle\psi|\)
-  - Inner product: \(\langle\phi|\psi⟩\)
-  - Outer product: \(|\psi⟩\langle\phi|\)
-
+  - Kets: |ψ⟩
+  - Bras: <ψ|
+  - Inner product: ⟨φ|ψ⟩
+  - Outer product: |ψ⟩⟨φ|
+    
 ### 🔁 4. Quantum Gates and Circuits
 - Gates are **unitary matrices** (reversible).
 - Common gates explored:
@@ -46,15 +51,20 @@ $$
 
 ### 🎲 5. Measurement
 - Measurement collapses a state to a computational basis state.
-- Probability of outcome \( |i⟩ \): \( |\langle i | \psi \rangle|^2 \)
+- Probability of outcome .
 - Post-measurement state: The observed basis vector.
 
 ---
+## 🎥 Supplementary Video Resources
 
-## 🛠 Skills Gained
+These videos helped reinforce the concepts from Nielsen & Chuang (Ch. 1–2):
 
-- Express and interpret quantum states using Dirac notation.
-- Understand and represent qubits and multi-qubit states.
-- Model quantum gates and circuits using matrix operations.
-- Analyze measurement outcomes and compute probabilities.
-- Describe how information is processed in a quantum system.
+- [Quantum Computing for the Determined (Michael Nielsen)](https://www.youtube.com/playlist?list=PL1826E60FD05B44E4)  
+
+
+- [Quantum Computing Course – Math and Theory for Beginners](https://www.youtube.com/watch?v=tsbCSkvHhMo)  
+
+
+- [Qiskit YouTube Channel – IBM Quantum](https://www.youtube.com/c/qiskit)  
+
+
