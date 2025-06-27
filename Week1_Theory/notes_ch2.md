@@ -8,6 +8,7 @@
 | 🎥 Watched Introductory Videos              |  ✅    | Followed YouTube playlists for foundational understanding                   |
 
 ---
+## 📚 Book Used
 > **Quantum Computation and Quantum Information**  
 > [*Michael A. Nielsen and Isaac L. Chuang (2000)*](https://profmcruz.wordpress.com/wp-content/uploads/2017/08/quantum-computation-and-quantum-information-nielsen-chuang.pdf)
 
