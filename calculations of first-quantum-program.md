@@ -72,6 +72,7 @@ Final quantum state before measurement:
 ψ₅ = (𝑖 / √2) × ( |00100⟩ + |10100⟩ )
 
 ---
+## 📊 Measurement
 
 This final quantum state gives **equal probability** of collapsing to either `|00100⟩` or `|10100⟩`.  
 Thus, in 4096 measurements (shots), we expect each state to occur approximately **2048 times**.  
