@@ -1,75 +1,60 @@
-# 🧠 Quantum Computing Notes – Chapters 2 (Nielsen & Chuang)
-## 📘 Chapter 2 – Introduction to Quantum Mechanics
+# ✅ Week 1 Quantum Computation – Foundational Concepts
 
-### 🔢 Qubits and State Vectors
 
-- A qubit is described by a unit vector in 2D complex Hilbert space:
-  \[
-  |\psi\rangle = \alpha|0\rangle + \beta|1\rangle \quad \text{where } \alpha, \beta \in \mathbb{C}, \quad |\alpha|^2 + |\beta|^2 = 1
-  \]
-
-- **Dirac notation**:  
-  - \( |0\rangle = \begin{bmatrix}1 \\ 0\end{bmatrix} \), \( |1\rangle = \begin{bmatrix}0 \\ 1\end{bmatrix} \)  
-  - General state: \( |\psi\rangle = \begin{bmatrix} \alpha \\ \beta \end{bmatrix} \)
+> **Quantum Computation and Quantum Information**  
+> *Michael A. Nielsen and Isaac L. Chuang (2000)*(https://profmcruz.wordpress.com/wp-content/uploads/2017/08/quantum-computation-and-quantum-information-nielsen-chuang.pdf)
 
 ---
 
-### 🔄 Measurement
+## 📖 Chapters Covered
 
-- Measurement collapses the qubit state:
-  - Probability of 0: \( |\alpha|^2 \), Probability of 1: \( |\beta|^2 \)
-- Post-measurement state collapses to \( |0\rangle \) or \( |1\rangle \)
-
----
-
-### 🎯 Quantum Gates
-
-| Gate | Matrix | Description |
-|------|--------|-------------|
-| **X** (NOT) | \( \begin{bmatrix}0 & 1 \\ 1 & 0\end{bmatrix} \) | Bit-flip |
-| **Z** | \( \begin{bmatrix}1 & 0 \\ 0 & -1\end{bmatrix} \) | Phase-flip |
-| **H** (Hadamard) | \( \frac{1}{\sqrt{2}}\begin{bmatrix}1 & 1 \\ 1 & -1\end{bmatrix} \) | Creates superposition |
-| **CNOT** | Acts on 2 qubits: flips second if first is 1 | Entanglement gate |
+- **Chapter 1: Introduction**
+- **Chapter 2: Introduction to Quantum Mechanics**
 
 ---
 
-### 🤝 Tensor Products
+## ✅ Learning Highlights
 
-- To combine qubits:  
-  \[
-  |0\rangle \otimes |1\rangle = |01\rangle = \begin{bmatrix}0 \\ 1 \\ 0 \\ 0\end{bmatrix}
-  \]
-- 2-qubit state lives in a 4D complex space.
+### 🧩 1. Postulates of Quantum Mechanics
+- **State Space**: Quantum states are unit vectors in a complex vector space (Hilbert space).
+- **Unitary Evolution**: State evolution (without measurement) is via unitary operators.
+- **Measurement**: Observable outcomes are probabilistic and cause state collapse.
+- **Composite Systems**: Described using tensor products of individual subsystems.
 
----
+### 🧠 2. Qubits and Superposition
+- A **qubit** is a linear combination (superposition) of \(|0⟩\) and \(|1⟩\):
+$$
+|\psi\rangle = \alpha\,|0\rangle + \beta\,|1\rangle
+$$
 
-### 🔗 Entanglement
+- Unlike classical bits, qubits can encode more information through interference and entanglement.
 
-- Example: Bell State  
-  \[
-  |\Phi^+\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)
-  \]
-- Not separable: cannot be written as a tensor product of two individual qubit states.
+### 📐 3. Dirac Notation
+- Introduced **bra-ket** notation:
+  - Kets: \(|\psi⟩\)
+  - Bras: \(\langle\psi|\)
+  - Inner product: \(\langle\phi|\psi⟩\)
+  - Outer product: \(|\psi⟩\langle\phi|\)
 
----
+### 🔁 4. Quantum Gates and Circuits
+- Gates are **unitary matrices** (reversible).
+- Common gates explored:
+  - **Pauli Gates**: X (NOT), Y, Z
+  - **Hadamard (H)**: Creates superposition
+  - **Phase gates**: S and T
+  - **CNOT**: Two-qubit gate for entanglement
 
-### 🔄 Unitary Evolution
-
-- Quantum state evolves by a **unitary operator \( U \)**:  
-  \[
-  |\psi\rangle \rightarrow U|\psi\rangle
-  \]
-- \( U^\dagger U = I \): guarantees norm is preserved.
-
----
-
-## 📌 Summary
-
-| Concept | Classical Analog | Quantum Behavior |
-|--------|------------------|------------------|
-| Bit    | 0 or 1           | Superposition \( \alpha|0\rangle + \beta|1\rangle \) |
-| Logic Gates | AND, OR, NOT | Unitary gates (X, Z, H, CNOT) |
-| Memory | Bit string       | Quantum register (tensor product) |
-| Output | Deterministic    | Probabilistic (via measurement) |
+### 🎲 5. Measurement
+- Measurement collapses a state to a computational basis state.
+- Probability of outcome \( |i⟩ \): \( |\langle i | \psi \rangle|^2 \)
+- Post-measurement state: The observed basis vector.
 
 ---
+
+## 🛠 Skills Gained
+
+- Express and interpret quantum states using Dirac notation.
+- Understand and represent qubits and multi-qubit states.
+- Model quantum gates and circuits using matrix operations.
+- Analyze measurement outcomes and compute probabilities.
+- Describe how information is processed in a quantum system.
