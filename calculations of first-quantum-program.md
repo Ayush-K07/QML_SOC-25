@@ -8,9 +8,7 @@ This README walks through the step-by-step analysis of a 5-qubit quantum circuit
 
 We start with all qubits in the |0⟩ state:
 
-\[
-|\psi_0\rangle = |00000\rangle
-\]
+All qubits: `|00000⟩`
 
 ---
 
@@ -18,14 +16,7 @@ We start with all qubits in the |0⟩ state:
 
 ### 1️⃣ Hadamard on Qubit 0
 
-\[
-H|0\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)
-\]
-
-State becomes:
-\[
-|\psi_1\rangle = \frac{1}{\sqrt{2}}(|00000\rangle + |10000\rangle)
-\]
+ ψ₁ = (1/√2) × ( `|00000⟩` + `|10000⟩` )
 
 ---
 
@@ -33,9 +24,7 @@ State becomes:
 
 Flips q1 from |0⟩ → |1⟩ in both branches:
 
-\[
-|\psi_2\rangle = \frac{1}{\sqrt{2}}(|01000\rangle + |11000\rangle)
-\]
+ ψ₂ = (1/√2) × ( `|01000⟩` + `|11000⟩` )
 
 ---
 
@@ -47,13 +36,7 @@ No effect since q2 = 0.
 
 ### 4️⃣ Pauli-Y on Qubit 3
 
-\[
-Y|0⟩ = i|1\rangle
-\]
-
-\[
-|\psi_3\rangle = \frac{i}{\sqrt{2}}(|01010\rangle + |11010\rangle)
-\]
+ ψ₃ = (i / √2) × ( `|01010⟩` + `|11010⟩` )
 
 ---
 
@@ -61,9 +44,7 @@ Y|0⟩ = i|1\rangle
 
 Since q1 = 1 in both states, q0 flips:
 
-\[
-|\psi_4\rangle = \frac{i}{\sqrt{2}}(|00010\rangle + |10010\rangle)
-\]
+ ψ₄ = (i / √2) × ( `|00010⟩` + `|10010⟩` )
 
 ---
 
@@ -88,17 +69,12 @@ Swapping q2 and q3:
 
 Final quantum state before measurement:
 
-\[
-|\psi_5\rangle = \frac{i}{\sqrt{2}}(|00100\rangle + |10100\rangle)
-\]
+ψ₅ = (𝑖 / √2) × ( |00100⟩ + |10100⟩ )
 
 ---
 
-## 🧮 Measurement and Output Interpretation
+This final quantum state gives **equal probability** of collapsing to either `|00100⟩` or `|10100⟩`.  
+Thus, in 4096 measurements (shots), we expect each state to occur approximately **2048 times**.  
 
-Qiskit reads output in this order:  
-**q4 q3 q2 q1 q0**  
-(e.g., rightmost bit is q0)
 
-### Based on Simulation Output:
 
