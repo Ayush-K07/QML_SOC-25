@@ -1,2 +1,2 @@
-# 🧠 Quantum Computing – QML_SOC-25
+#  Quantum Computing – QML_SOC-25
 
