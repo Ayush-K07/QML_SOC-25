@@ -1,9 +1,9 @@
-# 🧮 Variational Quantum Algorithms – Week 6 Project
+#  Variational Quantum Algorithms – Week 6 Project
 
 
 ---
 
-## 💻 Project Work
+##  Project Work
 
 |      File Name                          | Description                                         |
 |------------------------------------------|-----------------------------------------------------|
@@ -14,7 +14,7 @@
 
 ---
 
-## 🧠 Concepts Covered
+##  Concepts Covered
 
 - Variational Quantum Algorithms (VQAs)
 - VQE: parameterized quantum circuits + classical optimizer to find molecular ground state energy
@@ -22,6 +22,6 @@
 - Minimum Vertex Cover as a QUBO problem
 
 ---
-## 🛠 Resources Used
+##  Resources Used
 
 -
