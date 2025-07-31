@@ -1,21 +1,21 @@
-# 🧪 Week 2 – Getting Started with Qiskit
+#  Week 2 – Getting Started with Qiskit
 
 Welcome to **Week 2** of my quantum computing journey!  
 
 
 ---
 
-## ✅ Week 2 Checklist
+##  Week 2 Checklist
 
-| Task                                         | Status | Description                                                                 |
-|----------------------------------------------|--------|-----------------------------------------------------------------------------|
-| Qiskit Installed                             | ✅     | Installed via `conda` and `pip`, tested in Jupyter Notebook                 |
-| Basics of Quantum Information Course         | ✅     | Completed IBM's beginner course on qubits, gates, and measurements         |
-| First Quantum Circuit Implemented            | ✅     | Designed and simulated a multi-qubit circuit using Qiskit                  |
+| Task                                         |  Description                                                                 |
+|----------------------------------------------|-----------------------------------------------------------------------------|
+| Qiskit Installed                             |  Installed via `conda` and `pip`, tested in Jupyter Notebook                 |
+| Basics of Quantum Information Course         |  Completed IBM's beginner course on qubits, gates, and measurements         |
+| First Quantum Circuit Implemented            |  Designed and simulated a multi-qubit circuit using Qiskit                  |
 
 ---
 
-## 📘 Topics Learnt from Nielsen & Chuang :
+##  Topics Learnt from Nielsen & Chuang :
 
 ### 4.1 – Quantum Circuit Model
 
@@ -27,7 +27,7 @@ Welcome to **Week 2** of my quantum computing journey!
 
 ### 4.4 – Universality
 ---
-## 🎓 Courses and 📚 Books Used
+##  Courses and  Books Used
 - [*Quantum Computation and Quantum Information By Michael A. Nielsen & Isaac L. Chuang*](https://profmcruz.wordpress.com/wp-content/uploads/2017/08/quantum-computation-and-quantum-information-nielsen-chuang.pdf)
 -  [* Basics of Quantum Information Course (beginner course by IBM)*](https://learning.quantum.ibm.com/course/basics-of-quantum-information) 
 
